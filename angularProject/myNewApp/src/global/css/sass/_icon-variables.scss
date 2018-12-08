@@ -1,0 +1,82 @@
+%mynewapp-icon {
+    &::before, &::after {
+      font-family: 'mynewapp-icon';
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      display: inline-block;
+    }
+  }
+
+  %icon-ico_bm{
+    &::before {
+     content: "\e800";
+    }
+  }
+
+  %icon-ico_category_art{
+      &::before {
+        content: "\e801";
+      }
+  }
+  
+  %icon-ico_category_bars{
+    &::before {
+        content: "\e802";
+      }
+  }
+  
+//   .icon-ico_category_music:before {
+//     content: "\e803";
+//   }
+//   .icon-ico_category_restaurants:before {
+//     content: "\e804";
+//   }
+//   .icon-ico_category_shopping:before {
+//     content: "\e805";
+//   }
+//   .icon-ico_category_sport:before {
+//     content: "\e806";
+//   }
+//   .icon-ico_cross:before {
+//     content: "\e807";
+//   }
+//   .icon-ico_fb_edge:before {
+//     content: "\e808";
+//   }
+//   .icon-ico_insta_edge:before {
+//     content: "\e809";
+//   }
+//   .icon-ico_like_edge:before {
+//     content: "\e80a";
+//   }
+//   .icon-ico_like_fill:before {
+//     content: "\e80b";
+//   }
+//   .icon-ico_pinterest_edge:before {
+//     content: "\e80c";
+//   }
+//   .icon-ico_play:before {
+//     content: "\e80d";
+//   }
+//   .icon-ico_replies_edge:before {
+//     content: "\e80e";
+//   }
+//   .icon-ico_reply_fill:before {
+//     content: "\e80f";
+//   }
+//   .icon-ico_search:before {
+//     content: "\e810";
+//   }
+//   .icon-ico_twitter_edge:before {
+//     content: "\e811";
+//   }
+//   .icon-ico_twitter_fill:before {
+//     content: "\e812";
+//   }
+//   .icon-ico_user:before {
+//     content: "\e813";
+//   }

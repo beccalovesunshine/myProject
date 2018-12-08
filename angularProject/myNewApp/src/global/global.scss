@@ -1,0 +1,23 @@
+// @import'sass/icon';
+
+$font_family_1: 'mynewapp-icon';
+
+@font-face {
+    font-family: $font_family_1;
+    src: url("./resources/font/mynewapp-icon.eot");
+    src: url("./resources/font/mynewapp-icon.eot?#iefix-wepioz") format("embedded-opentype"), url("./resources/font/mynewapp-icon.svg") format("svg"), url("./resources/font/mynewapp-icon.woff") format("woff"), url("./resources/font/mynewapp-icon.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .icon-ico_bm:before {
+    content: "\e800";
+  }
+  body{
+    background-color: aqua;
+  }
+  .icon {
+    &::before {
+      font-family: $font_family_1;
+    }
+  }
